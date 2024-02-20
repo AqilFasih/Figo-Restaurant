@@ -5,7 +5,7 @@
 }
 .header{
     min-height: 300px;
-    width: 90%;
+    width: 80%;
     margin: auto;
     /* border: 1px solid #000000; */
     display: flex;
@@ -15,28 +15,53 @@
 }
 .item{
     min-height: 220px;
-    width: 500px;
+    width: 300px;
     /* border: 2px solid rgb(7, 2, 3); */
     margin: auto;
     justify-content: center;
     text-align: center;
 }
-.item >img{
-    height: 300px;
+.items{
+    min-height: 290px;
+    width: 290px;
+    /* border: 2px solid rgb(7, 2, 3); */
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+   
+    
+}
+.items >img{
+    height: 270px;
+    border-radius: 100%;
+    padding-top: 20px;
 
 }
+/* .leaf{
+    height: 80px;
+    width: 80px;
+} */
 .second{
-    min-height: 300px;
+    height: 400px;
     width: 80%;
-    margin: auto;
+    margin: auto ;
+    margin-top: 10px;
     /* border: 1px solid black; */
     display: flex;
+    background-color: aquamarine;
 
 }
 .sec-2 > img{
    height: 400px;
+   width: 510px;
    background-color: rgb(235, 230, 230)
 
+}
+.sec-text{
+    height: 400px;
+    width: 40 0px;
+   background-color: antiquewhite;
 }
 
 /* @media (max-width: 1200px){
@@ -48,12 +73,74 @@
     margin-top: 20px;
     min-height: 300px;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     /* border: 1px solid black; */
     flex-direction: row-reverse;
     display: flex;
 
 }
+.third-2{
+    background-color: yellow;
+    height: 400px;
+}
+/* .third-ex{
+ padding: 30px;
+} */
 .third-2 > img{
    height: 400px;
-   background-color: rgb(235, 230, 230)
+   width: 450px;
+   background-color: rgb(235, 230, 230) 
+}
+.card{
+    height:300px;
+    width: 80%;
+    margin: auto;
+    /* background-color: rgb(255, 235, 206); */
+    flex-direction: row;
+}
+.card-001{
+    height:230px ;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    /* background-color: aquamarine; */
+}
+.card-001 > img {
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.details{
+    text-align: center;
+}
+.card-001 > p{
+   text-align: center;
+}
+.food{
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  /* background-color: aqua; */
+
+}
+.food-1{
+    height: 280px;
+    width: 300px;
+    /* border: 2px solid blue; */
+    margin: auto;
+    justify-content: space-evenly;
+}
+.food-1 > img{
+    height: 200px;
+    width: 298px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+footer{
+    height: 1000px;
+    width: 100%;
+    background-color: aqua;
+   
+}
